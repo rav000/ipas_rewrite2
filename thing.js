@@ -1,4 +1,3 @@
-//turn pages when click or prev button
 const pageTurnBtn =document.querySelectorAll('.nextprev-btn');
 
 pageTurnBtn.forEach((el, index) => {
@@ -21,7 +20,6 @@ pageTurnBtn.forEach((el, index) => {
     }
 })
 
-//contact me button when click
 const pages = document.querySelectorAll('.book-page.page-right');
 const contactMeBtn = document.querySelector('.btn.contact-me');
 
@@ -38,7 +36,6 @@ contactMeBtn.onclick = () => {
     })
 }
 
-//create reverse index function
 let totalPages = pages.length;
 let pageNumber = 0;
 
@@ -49,7 +46,6 @@ function reverseIndex() {
     }
 }
 
-//back profile button when click
 const backProfileBtn = document.querySelector('.back-profile');
 
 backProfileBtn.onclick = () => {
@@ -67,11 +63,9 @@ backProfileBtn.onclick = () => {
     })
 }
 
-//opening animation
 const coverRight = document.querySelector('.cover.cover-right');
 const pageLeft = document.querySelector('.book-page.page-left');
 
-//opening animation (cover right animation)
 setTimeout(() => {
     coverRight.classList.add('turn');
 }, 2100)
@@ -80,12 +74,10 @@ setTimeout(() => {
     coverRight.style.zIndex = -1;
 }, 2800)
 
-//opening animation (page left or profile page animation)
 setTimeout(() => {
     pageLeft.style.zIndex = 20;
 }, 3200)
 
-//opening animation (all page right animation)
 pages.forEach((_, index) => {
     setTimeout(() => {
         reverseIndex();
