@@ -5,7 +5,7 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif, arial
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif, arial;
 }
 
 img {
@@ -172,7 +172,7 @@ body {
 }
 
 .nextprev-btn:hover {
-    color: #00abf0;
+    color: #640808;
 }
 
 .nextprev-btn.back {
