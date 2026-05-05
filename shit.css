@@ -33,7 +33,7 @@ body {
 .wrapper {
     position: relative;
     width: 66rem;
-    height: 45rem;
+height: 100vh;
     padding: 2rem;
     perspective: 250rem;
 }
@@ -80,21 +80,6 @@ body {
     display: flex;
     padding: 2rem;
 }
-
-/* .intro {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 1rem;
-} */
-
-/* .profile-page p {
-    text-align: justify;
-} */
 
 .btn {
     display: inline-flex;
@@ -165,7 +150,7 @@ body {
     right: 1.5rem;
     width: 2rem;
     height: 2rem;
-    font-size: 2rem;
+    font-size: 20px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -178,4 +163,44 @@ body {
 
 .nextprev-btn.back {
     left: 1.5rem;
+}
+
+.musik {
+    display: block;
+    margin: 1rem auto;
+    width: 200px;
+    height: 300px;
+    border-radius: .6rem;
+}
+
+.pakean {
+    display: block;
+    margin: 1rem auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.pakean2 {
+    display: block;
+    margin: 1rem auto;
+    width: 300px;
+    height: 215px;
+    border-radius: 5px;
+}
+
+.kota {
+    display: block;
+    margin: 1rem auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.reaksi {
+    display: block;
+    margin: 1rem auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
 }
